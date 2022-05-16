@@ -127,4 +127,62 @@ label:hover span {
   opacity: 1;
 }
 
+@media(max-width:48em) {
+  .slider__img {
+    height: 17em;
+  }
+
+  .slider__items {
+    order: 2;
+    text-align: left;
+  }
+
+  .slider__dots {
+    order: 1;
+    margin: 1em auto;
+  }
+
+  .wrapper {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width:20em) {
+  .container {
+    padding: 0;
+  }
+
+  .slider {
+    width: 88%;
+  }
+
+  .slider__img {
+    height: 10em;
+  }
+
+  .item__text {
+    font-size: 1em;
+  }
+
+   .slider__dots {
+    order: 1;
+    margin: 0.2em auto;
+  }
+
+  label {
+    width: 1.1em;
+  }
+
+  label span {
+    width: 0.7em;
+    height: 0.7em;
+    border: solid #FFB6C1 0.1em;
+  }
+
+  .slider__items {
+    align-items: start;
+  }
+}
+
 
