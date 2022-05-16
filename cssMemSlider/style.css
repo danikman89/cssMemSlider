@@ -96,5 +96,35 @@ label:hover span {
   transition-duration: 0.5s;
 }
 
+#control-1:checked ~ .wrapper .span-1,
+#control-2:checked ~ .wrapper .span-2,
+#control-3:checked ~ .wrapper .span-3,
+#control-4:checked ~ .wrapper .span-4 {
+  background-color: transparent;
+}
+
+#control-1:checked ~ .slider__images,
+#control-1:checked ~ .wrapper .item__text {
+   transform: translate(0); 
+  opacity: 1;
+}
+
+#control-2:checked ~ .slider__images,
+#control-2:checked ~ .wrapper .item__text {
+   transform: translate(-100%); 
+  opacity: 1;
+}
+
+#control-3:checked ~ .slider__images,
+#control-3:checked ~ .wrapper .item__text {
+   transform: translate(-200%); 
+  opacity: 1;
+}
+
+#control-4:checked ~ .slider__images,
+#control-4:checked ~ .wrapper .item__text {
+   transform: translate(-300%); 
+  opacity: 1;
+}
 
 
