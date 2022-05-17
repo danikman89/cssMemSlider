@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Css Mem-slider</title>
+  <link rel="icon" href="./assets/icon/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="slider">
+        <input type="radio" name="slide" id="control-1" checked>
+        <input type="radio" name="slide" id="control-2">
+        <input type="radio" name="slide" id="control-3">
+        <input type="radio" name="slide" id="control-4">
+        <div class="slider__images">
+          <img class="slider__img img-1" src="./assets/images/image-1.gif" alt="img-1">
+          <img class="slider__img img-2" src="./assets/images/image-2.jpg" alt="img-2">
+          <img class="slider__img img-3" src="./assets/images/image-3.jpg" alt="img-3">
+          <img class="slider__img img-4" src="./assets/images/image-4.jpg" alt="img-4">
+        </div>
+        <div class="wrapper">
+          <div class="slider__items">
+            <p class="item__text text-1">DEBUGGING CSS</p>
+            <p class="item__text text-2">When you trying to look at the code you wrote a month ago</p>
+            <p class="item__text text-3">When you close more than 100 tabs after finding the solution of a bug</p>
+            <p class="item__text text-4">That moment when you code works</p>
+          </div>
+          <div class="slider__dots">
+            <label for="control-1"><span class="span-1"></span></label>
+            <label for="control-2"><span class="span-2"></span></label>
+            <label for="control-3"><span class="span-3"></span></label>
+            <label for="control-4"><span class="span-4"></span></label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
